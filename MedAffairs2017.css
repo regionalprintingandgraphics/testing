@@ -1,0 +1,265 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/* List CSS for Navigation */
+.medicalaffairs ul
+{
+	background-color: #ffffff;
+	list-style:none;
+	position:relative;
+	float:left;
+	margin:0;
+	padding:0;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:16px;
+	line-height:18px;
+	font-weight:bold;
+	color: #002f5f;
+}
+
+.medicalaffairs ul a
+{
+	display:block;
+	color:#002f5f;
+	text-decoration:none;
+	transition: all 0.25s ease;
+		font-weight:normal;
+		}
+		
+
+.medicalaffairs ul li
+{
+	position:relative;
+	float:left;
+	margin:0;
+	padding: 12px 12px 12px 10px;
+	border:solid;
+	border-width:0px 1px 1px 1px;
+	border-color:#dcdcdc;
+	font-weight:normal;
+}
+
+.medicalaffairs ul li.menu-item
+{
+	background: #e3eaee;
+	font-size:15px;
+	color:#002f5f;
+	transition: all 0.25s ease;
+	border-width: 0px 1px 0px 1px;
+	border-color:#ffffff;
+	width:102px;
+	height:35px;
+}
+
+.medicalaffairs ul li.menu-item:hover
+{
+	background:#d3dee4;
+	border-left-width:0px !important;
+}
+
+.medicalaffairs ul li.firstli {
+	border-top:solid; 
+	border-top-color:#dcdcdc; 
+	border-top-width:1px;
+}
+
+.medicalaffairs ul li:hover
+{
+	background-color:#eaeaea;
+	border-left-color:#407cb9;
+	border-left-width:2px;
+}
+
+.medicalaffairs ul ul
+{
+	display:none;
+	position:absolute;
+	top:100%;
+	left:0;
+	background:#ffffff;
+	padding:0;
+	font-weight:normal;
+}
+
+.medicalaffairs ul ul li
+{
+	float:none;
+	width:200px;
+}
+
+.medicalaffairs ul ul a
+{
+	line-height:120%;
+}
+
+.medicalaffairs ul ul ul
+{
+	top:0;
+	left:100%;
+	background-color:#e3eaee;
+}
+
+.medicalaffairs ul ul ul li:hover
+{
+	background-color:#ffffff;
+	}
+
+.medicalaffairs ul ul ul li a:hover
+{
+	display:block;
+	color:#407cb9;
+	vertical-align:middle;
+	}
+
+.medicalaffairs ul li:hover > ul
+{
+	display:block;
+	border-left-color:#407cb9;
+	border-left-width:2px;
+}
+
+
+/* Headers */
+
+.mah1 {
+	font-family:Arial, Helvetica, sans-serif; 
+	font-size:24px;
+	line-height:28px;
+	color: #002f5f;
+	padding-bottom:25px;
+}
+
+.mah2 {
+	font-family:Arial;
+	color:#666666;
+	font-size: 16px;
+	line-height: 24px;
+}
+
+.mah3 {
+	font-family:Arial;
+	color:#002f5f;
+	font-size: 20px;
+	padding-bottom:10px;
+}
+
+.mah4 {
+	font-family:Arial;
+	color:#79a3ce;
+	font-size: 16px;
+	padding-bottom:6px;
+}
+
+.mah5 {
+	font-family:Arial;
+	color:#d3dee4;
+	font-size: 18px;
+	padding-bottom:12px;
+}
+
+/* Sections */
+
+
+.bodymah {
+	padding:40px 50px 40px 50px;
+	vertical-align:top;
+	font-family:Verdana; 
+	color:#002f5f;
+	font-size:14px;
+	line-height:22px;
+	border:solid;
+	border-color:#dcdcdc;
+	border-width:0px 1px 1px 1px;
+}
+
+.bodymahlinetop {
+	padding:40px 50px 40px 50px;
+	vertical-align:top;
+	font-family:Verdana; 
+	color:#002f5f;
+	font-size:14px;
+	line-height:24px;
+	border:solid;
+	border-color:#dcdcdc;
+	border-width:1px 1px 1px 1px;
+}
+
+.bodymahgray {
+	background-color:#f0f0f0;
+}
+.bodymah a, .bodymahlinetop a, .bodymahgray a {
+	color:#407cb9;
+	text-decoration:none;
+	transition: all 0.25s ease;
+}
+
+.bodymah a:hover, .bodymahlinetop a:hover, .bodymahgray a:hover {
+	color:#002f5f;
+}
+
+.footermah {
+	background-color:#002f5f;
+	padding:50px;
+	height:50px;
+	vertical-align:bottom;
+	color:#ffffff;
+	font-family:Verdana;
+	border-bottom:solid;
+	border-bottom-color:#dcdcdc;
+	border-bottom-width:1px;
+	font-size:14px;
+	line-height:24px;
+}
+
+.footermah a {
+	color:#d3dee4;
+	text-decoration:none;
+	transition: all 0.25s ease;
+}
+
+.footermah a:hover {
+	color:#79a3ce;
+}
+
+table.contactlist td {
+	vertical-align:top;
+	padding-bottom:25px;
+	padding-right:25px;
+	width:50%;
+	font-size:13px;
+	line-height:20px;
+}
+
+.medicalaffairs hr {
+	border:solid;
+	color:#d3dee4;
+	border-width:1px;
+}
+
+.highlight {
+	padding:0px 25px 0px 25px;
+	color:#666666;
+	font-size:12px;
+	line-height:19px;
+	vertical-align:top !important;
+	border-left-width:1px;
+	border-left:dotted;
+	border-left-color:#dcdcdc;
+}
+
+.chiefcontact {
+	font-size:12px !important;
+	padding-top:25px;
+	vertical-align:bottom;
+	height:100%;
+}
+
+/* Icons */
+.material-icons.navicon { 
+	font-size: 14px;
+	}
+
+.material-icons.footermahicon { 
+	font-size: 14px;
+	color:#79a3ce;
+	}
